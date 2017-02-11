@@ -1,0 +1,20 @@
+{
+    "name": "yongtiger/js-ajaxfileupload",
+    "description": "",
+    "type": "js",
+    "keywords": ["ajaxfileupload","ajax","file","upload"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yongtiger/js-ajaxfileupload/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "source": "https://github.com/yongtiger/js-ajaxfileupload"
+    },
+    "authors": [
+        {
+            "name": "Yong Tiger",
+            "email": "tigeryang.brainbook@outlook.com",
+            "homepage": "http://www.branbook.cc/yongtiger"
+        }
+    ],
+    "homepage" : "http://www.branbook.cc",
+}

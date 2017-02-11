@@ -2,10 +2,10 @@
 
 Improved [carlcarl/AjaxFileUpload](https://github.com/carlcarl/AjaxFileUpload) and fixed some bugs.
 
-[![Latest Stable Version](https://poser.pugx.org/yongtiger/ajaxfileupload/v/stable)](https://packagist.org/packages/yongtiger/ajaxfileupload)
-[![Total Downloads](https://poser.pugx.org/yongtiger/ajaxfileupload/downloads)](https://packagist.org/packages/yongtiger/ajaxfileupload) 
-[![Latest Unstable Version](https://poser.pugx.org/yongtiger/ajaxfileupload/v/unstable)](https://packagist.org/packages/yongtiger/ajaxfileupload)
-[![License](https://poser.pugx.org/yongtiger/ajaxfileupload/license)](https://packagist.org/packages/yongtiger/ajaxfileupload)
+[![Latest Stable Version](https://poser.pugx.org/yongtiger/js-js-ajaxfileupload/v/stable)](https://packagist.org/packages/yongtiger/js-ajaxfileupload)
+[![Total Downloads](https://poser.pugx.org/yongtiger/js-ajaxfileupload/downloads)](https://packagist.org/packages/yongtiger/js-ajaxfileupload) 
+[![Latest Unstable Version](https://poser.pugx.org/yongtiger/js-ajaxfileupload/v/unstable)](https://packagist.org/packages/yongtiger/js-ajaxfileupload)
+[![License](https://poser.pugx.org/yongtiger/js-ajaxfileupload/license)](https://packagist.org/packages/yongtiger/js-ajaxfileupload)
 
 
 ## Features
