@@ -1,4 +1,4 @@
-# js-ajaxfileupload
+# js-ajaxfileupload release version 1.0.0
 
 Improved [carlcarl/AjaxFileUpload](https://github.com/carlcarl/AjaxFileUpload) and fixed some bugs.
 
@@ -20,29 +20,35 @@ Improved [carlcarl/AjaxFileUpload](https://github.com/carlcarl/AjaxFileUpload) a
 
 ```js
 ajaxFileUpload: function () {
-    $.ajaxFileUpload({url: '<your url>', 
-        secureuri: false,
-        fileElementId:'<your file element id>',
-        type: 'post',
-        data: '<your data>',
+    $.ajaxFileUpload({
+        url: '<your url>',  // MUST! 
+        secureuri: false,   // MUST!
+        fileElementId:'<your file element id>', // MUST!
+        type: 'post',       // MUST!
+        data: '<your data>',    // MUST!
         dataType: 'json',
 
+        // optional
         start: function () {
             // ...
         },
 
+        // optional
         beforeSend: function () {
             // ...
         },
 
+        // optional
         success: function (data, status) {
             // ...
         },
 
+        // optional
         error: function (XMLHttpRequest, textStatus, errorThrown) {
             // ...
         },
 
+        // optional
         complete: function () {
             // ...
         }
@@ -53,11 +59,15 @@ ajaxFileUpload: function () {
 
 ## References
 
-* https://github.com/carlcarl/AjaxFileUpload
-* http://www.cnblogs.com/zrp2013/archive/2013/05/29/3106435.html
-* http://www.oschina.net/question/1246890_142999
-* http://www.developwebapp.com/5538869/
-* http://www.lai18.com/content/9621987.html
+- https://github.com/carlcarl/AjaxFileUpload
+
+
+## See also
+
+- http://www.cnblogs.com/zrp2013/archive/2013/05/29/3106435.html
+- http://www.oschina.net/question/1246890_142999
+- http://www.developwebapp.com/5538869/
+- http://www.lai18.com/content/9621987.html
 
 ## License 
 **ajaxfileupload** is released under the MIT license, see [LICENSE](https://opensource.org/licenses/MIT) file for details.

@@ -1,5 +1,5 @@
 /**
- * js-ajaxfileupload
+ * js-ajaxfileupload release version 1.0.0
  *
  * @link        http://www.brainbook.cc
  * @see         https://github.com/yongtiger/js-ajaxfileupload
@@ -7,41 +7,47 @@
  * @copyright   Copyright (c) 2016 BrainBook.CC
  * @license     http://opensource.org/licenses/MIT
  *
- * Reference: https://github.com/carlcarl/AjaxFileUpload
- *
  * Features: 
+ *
  * - add `handleError`
  * - add `start` and `beforeSend` local callbacks of events
  * - fix ie9 and ie 10
  * - fix bugs: confict with yii.js(350)
  *
+ *
  * Example:
  *
  * ```js
  * ajaxFileUpload: function () {
- *     $.ajaxFileUpload({url: '<your url>', 
- *         secureuri: false,
- *         fileElementId:'<your file element id>',
- *         type: 'post',
- *         data: '<your data>',
+ *     $.ajaxFileUpload({
+ *         url: '<your url>',   // MUST! 
+ *         secureuri: false,    // MUST! 
+ *         fileElementId:'<your file element id>',  // MUST! 
+ *         type: 'post',        // MUST! 
+ *         data: '<your data>', // MUST! 
  *         dataType: 'json',
  * 
+ *         // optional
  *         start: function () {
  *             // ...
  *         },
  *
+ *         // optional
  *         beforeSend: function () {
  *             // ...
  *         },
  * 
+ *         // optional
  *         success: function (data, status) {
  *             // ...
  *         },
  * 
+ *         // optional
  *         error: function (XMLHttpRequest, textStatus, errorThrown) {
  *             // ...
  *         },
  * 
+ *         // optional
  *         complete: function () {
  *             // ...
  *         }
@@ -49,6 +55,11 @@
  * },
  * ```
  *
+ *
+ * References:
+ *
+ * - https://github.com/carlcarl/AjaxFileUpload
+ * 
  */
 
 jQuery.extend({
