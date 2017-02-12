@@ -21,12 +21,12 @@ Improved [carlcarl/AjaxFileUpload](https://github.com/carlcarl/AjaxFileUpload) a
 ```js
 ajaxFileUpload: function () {
     $.ajaxFileUpload({
-        url: '<your url>',  // MUST! 
-        secureuri: false,   // MUST!
+        url: '<your url>',      // MUST! 
+        secureuri: false,       // MUST!
         fileElementId:'<your file element id>', // MUST!
-        type: 'post',       // MUST!
+        type: 'post',           // MUST!
         data: '<your data>',    // MUST!
-        dataType: 'json',
+        dataType: 'json',       // MUST! `json`, `xml`, etc.
 
         // optional
         start: function () {

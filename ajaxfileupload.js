@@ -25,7 +25,7 @@
  *         fileElementId:'<your file element id>',  // MUST! 
  *         type: 'post',        // MUST! 
  *         data: '<your data>', // MUST! 
- *         dataType: 'json',
+ *         dataType: 'json',    // MUST! `json`, `xml`, etc.
  * 
  *         // optional
  *         start: function () {
